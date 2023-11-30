@@ -20,6 +20,12 @@ int main()
     printf("Выражение: ");
     size_t line = getline(&str, &size, stdin);
 
+    char num1[size];
+    char num2[size];
+    char oper = 'a';
+
+    CheckString(str, num1, num2, &oper);
+    printf("n1: %s, n2: %s, oper: %c", num1, num2, oper);
 
     free(str);
 
