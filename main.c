@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include "funcs.h"
+#include "operations.h"
 
 
 int main()
